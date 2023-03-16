@@ -1,6 +1,7 @@
 babel.config.js
 commitlint.config.js
 example/babel.config.js
+example/index.js
 example/metro.config.js
 example/node_modules
 example/react-native.config.js
