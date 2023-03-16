@@ -53,10 +53,7 @@ Remember to add tests for your change if possible. Run the unit tests by:
 yarn test
 ```
 
-To edit the Objective-C or Swift files, open `example/ios/LiveActivityCountdownExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > react-native-live-activity-countdown`.
-
-To edit the Java or Kotlin files, open `example/android` in Android studio and find the source files at `react-native-live-activity-countdown` under `Android`.
-
+To edit the Objective-C or Swift files, open `example/ios/LiveActivityCountdownExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > LiveActivityCountdown (or LiveActivityCountdownView)`.
 
 ### Commit message convention
 

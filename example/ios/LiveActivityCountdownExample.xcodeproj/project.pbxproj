@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* LiveActivityCountdownExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* LiveActivityCountdownExampleTests.m */; };
+		037B381C294B49C200FC8617 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037B381B294B49C200FC8617 /* WidgetKit.framework */; };
+		037B381E294B49C200FC8617 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 037B381D294B49C200FC8617 /* SwiftUI.framework */; };
+		037B3821294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B3820294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionBundle.swift */; };
+		037B3827294B49C400FC8617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037B3826294B49C400FC8617 /* Assets.xcassets */; };
+		037B382B294B49C400FC8617 /* LiveActivityCountdownWidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 037B381A294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		037B3833294B52E400FC8617 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037B3831294B52E300FC8617 /* File.swift */; };
+		0C36BA04693F08508C564EFD /* libPods-LiveActivityCountdownWidgetExtensionExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC99429AF723E4F14604C5D4 /* libPods-LiveActivityCountdownWidgetExtensionExtension.a */; };
 		0C80B921A6F3F58F76C31292 /* libPods-LiveActivityCountdownExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-LiveActivityCountdownExample.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -24,12 +31,42 @@
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
 			remoteInfo = LiveActivityCountdownExample;
 		};
+		037B3829294B49C400FC8617 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037B3819294B49C200FC8617;
+			remoteInfo = LiveActivityCountdownWidgetExtensionExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		037B382C294B49C400FC8617 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				037B382B294B49C400FC8617 /* LiveActivityCountdownWidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* LiveActivityCountdownExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveActivityCountdownExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* LiveActivityCountdownExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveActivityCountdownExampleTests.m; sourceTree = "<group>"; };
+		037B381A294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LiveActivityCountdownWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		037B381B294B49C200FC8617 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		037B381D294B49C200FC8617 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		037B3820294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityCountdownWidgetExtensionBundle.swift; sourceTree = "<group>"; };
+		037B3826294B49C400FC8617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		037B3828294B49C400FC8617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037B3831294B52E300FC8617 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		037B3834294B537400FC8617 /* LiveActivityCountdownExample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LiveActivityCountdownExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		0579079CB2AFD3AFB07FD4BA /* Pods-LiveActivityCountdownWidgetExtensionExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveActivityCountdownWidgetExtensionExtension.release.xcconfig"; path = "Target Support Files/Pods-LiveActivityCountdownWidgetExtensionExtension/Pods-LiveActivityCountdownWidgetExtensionExtension.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* LiveActivityCountdownExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveActivityCountdownExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = LiveActivityCountdownExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = LiveActivityCountdownExample/AppDelegate.mm; sourceTree = "<group>"; };
@@ -41,9 +78,13 @@
 		5709B34CF0A7D63546082F79 /* Pods-LiveActivityCountdownExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveActivityCountdownExample.release.xcconfig"; path = "Target Support Files/Pods-LiveActivityCountdownExample/Pods-LiveActivityCountdownExample.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests/Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-LiveActivityCountdownExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveActivityCountdownExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C2171AA533ACBA37B497D73 /* Pods-LiveActivityCountdownExample-LiveActivityCountdownWidgetExtensionExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveActivityCountdownExample-LiveActivityCountdownWidgetExtensionExtension.release.xcconfig"; path = "Target Support Files/Pods-LiveActivityCountdownExample-LiveActivityCountdownWidgetExtensionExtension/Pods-LiveActivityCountdownExample-LiveActivityCountdownWidgetExtensionExtension.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = LiveActivityCountdownExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.release.xcconfig"; path = "Target Support Files/Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests/Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D95E6BF94F78985D1C46246 /* Pods-LiveActivityCountdownExample-LiveActivityCountdownWidgetExtensionExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveActivityCountdownExample-LiveActivityCountdownWidgetExtensionExtension.debug.xcconfig"; path = "Target Support Files/Pods-LiveActivityCountdownExample-LiveActivityCountdownWidgetExtensionExtension/Pods-LiveActivityCountdownExample-LiveActivityCountdownWidgetExtensionExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		EC99429AF723E4F14604C5D4 /* libPods-LiveActivityCountdownWidgetExtensionExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiveActivityCountdownWidgetExtensionExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FA507F97214B4C63157637C8 /* Pods-LiveActivityCountdownWidgetExtensionExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveActivityCountdownWidgetExtensionExtension.debug.xcconfig"; path = "Target Support Files/Pods-LiveActivityCountdownWidgetExtensionExtension/Pods-LiveActivityCountdownWidgetExtensionExtension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +93,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7699B88040F8A987B510C191 /* libPods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037B3817294B49C200FC8617 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037B381E294B49C200FC8617 /* SwiftUI.framework in Frameworks */,
+				037B381C294B49C200FC8617 /* WidgetKit.framework in Frameworks */,
+				0C36BA04693F08508C564EFD /* libPods-LiveActivityCountdownWidgetExtensionExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +134,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		037B381F294B49C200FC8617 /* LiveActivityCountdownWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				037B3820294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionBundle.swift */,
+				037B3826294B49C400FC8617 /* Assets.xcassets */,
+				037B3828294B49C400FC8617 /* Info.plist */,
+			);
+			path = LiveActivityCountdownWidgetExtension;
+			sourceTree = "<group>";
+		};
 		13B07FAE1A68108700A75B9A /* LiveActivityCountdownExample */ = {
 			isa = PBXGroup;
 			children = (
+				037B3831294B52E300FC8617 /* File.swift */,
+				037B3834294B537400FC8617 /* LiveActivityCountdownExample-Bridging-Header.h */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -102,6 +165,9 @@
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				5DCACB8F33CDC322A6C60F78 /* libPods-LiveActivityCountdownExample.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.a */,
+				037B381B294B49C200FC8617 /* WidgetKit.framework */,
+				037B381D294B49C200FC8617 /* SwiftUI.framework */,
+				EC99429AF723E4F14604C5D4 /* libPods-LiveActivityCountdownWidgetExtensionExtension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,6 +185,7 @@
 				13B07FAE1A68108700A75B9A /* LiveActivityCountdownExample */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* LiveActivityCountdownExampleTests */,
+				037B381F294B49C200FC8617 /* LiveActivityCountdownWidgetExtension */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -133,6 +200,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* LiveActivityCountdownExample.app */,
 				00E356EE1AD99517003FC87E /* LiveActivityCountdownExampleTests.xctest */,
+				037B381A294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +212,10 @@
 				5709B34CF0A7D63546082F79 /* Pods-LiveActivityCountdownExample.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.release.xcconfig */,
+				8D95E6BF94F78985D1C46246 /* Pods-LiveActivityCountdownExample-LiveActivityCountdownWidgetExtensionExtension.debug.xcconfig */,
+				6C2171AA533ACBA37B497D73 /* Pods-LiveActivityCountdownExample-LiveActivityCountdownWidgetExtensionExtension.release.xcconfig */,
+				FA507F97214B4C63157637C8 /* Pods-LiveActivityCountdownWidgetExtensionExtension.debug.xcconfig */,
+				0579079CB2AFD3AFB07FD4BA /* Pods-LiveActivityCountdownWidgetExtensionExtension.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -172,6 +244,24 @@
 			productReference = 00E356EE1AD99517003FC87E /* LiveActivityCountdownExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		037B3819294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037B382F294B49C400FC8617 /* Build configuration list for PBXNativeTarget "LiveActivityCountdownWidgetExtensionExtension" */;
+			buildPhases = (
+				4BBAF9EC6D7A138914BB31D7 /* [CP] Check Pods Manifest.lock */,
+				037B3816294B49C200FC8617 /* Sources */,
+				037B3817294B49C200FC8617 /* Frameworks */,
+				037B3818294B49C200FC8617 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveActivityCountdownWidgetExtensionExtension;
+			productName = LiveActivityCountdownWidgetExtensionExtension;
+			productReference = 037B381A294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		13B07F861A680F5B00A75B9A /* LiveActivityCountdownExample */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "LiveActivityCountdownExample" */;
@@ -184,10 +274,12 @@
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
 				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				037B382C294B49C400FC8617 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				037B382A294B49C400FC8617 /* PBXTargetDependency */,
 			);
 			name = LiveActivityCountdownExample;
 			productName = LiveActivityCountdownExample;
@@ -200,14 +292,18 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1210;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					037B3819294B49C200FC8617 = {
+						CreatedOnToolsVersion = 14.1;
+					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1410;
 					};
 				};
 			};
@@ -226,6 +322,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* LiveActivityCountdownExample */,
 				00E356ED1AD99517003FC87E /* LiveActivityCountdownExampleTests */,
+				037B3819294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -235,6 +332,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037B3818294B49C200FC8617 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037B3827294B49C400FC8617 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +369,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+			shellScript = "# Fix for machines using nvm (https://github.com/facebook/metro/issues/703)\nif [[ -s \"$HOME/.nvm/nvm.sh\" ]]; then\n. \"$HOME/.nvm/nvm.sh\"\nelif [[ -x \"$(command -v brew)\" && -s \"$(brew --prefix nvm)/nvm.sh\" ]]; then\n. \"$(brew --prefix nvm)/nvm.sh\"\nfi\n\nset -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
 		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -281,6 +386,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiveActivityCountdownExample/Pods-LiveActivityCountdownExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BBAF9EC6D7A138914BB31D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LiveActivityCountdownWidgetExtensionExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -408,11 +535,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		037B3816294B49C200FC8617 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037B3821294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		13B07F871A680F5B00A75B9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				037B3833294B52E400FC8617 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +561,11 @@
 			target = 13B07F861A680F5B00A75B9A /* LiveActivityCountdownExample */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
+		037B382A294B49C400FC8617 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037B3819294B49C200FC8617 /* LiveActivityCountdownWidgetExtensionExtension */;
+			targetProxy = 037B3829294B49C400FC8617 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
@@ -432,6 +573,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -459,6 +601,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-LiveActivityCountdownExample-LiveActivityCountdownExampleTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = LiveActivityCountdownExampleTests/Info.plist;
@@ -479,15 +622,103 @@
 			};
 			name = Release;
 		};
+		037B382D294B49C400FC8617 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA507F97214B4C63157637C8 /* Pods-LiveActivityCountdownWidgetExtensionExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = WPKUKZ62LY;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = LiveActivityCountdownWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveActivityCountdownWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.LiveActivityCountdownExample.LiveActivityCountdownWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		037B382E294B49C400FC8617 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0579079CB2AFD3AFB07FD4BA /* Pods-LiveActivityCountdownWidgetExtensionExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = WPKUKZ62LY;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = LiveActivityCountdownWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LiveActivityCountdownWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.LiveActivityCountdownExample.LiveActivityCountdownWidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-LiveActivityCountdownExample.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WPKUKZ62LY;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LiveActivityCountdownExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,6 +730,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LiveActivityCountdownExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "LiveActivityCountdownExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -509,10 +741,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-LiveActivityCountdownExample.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = WPKUKZ62LY;
 				INFOPLIST_FILE = LiveActivityCountdownExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -524,6 +760,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = LiveActivityCountdownExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "LiveActivityCountdownExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -562,7 +799,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -596,6 +833,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -633,7 +871,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -659,6 +897,7 @@
 					"-DFOLLY_MOBILE=1",
 					"-DFOLLY_USE_LIBCPP=1",
 				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -672,6 +911,15 @@
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
 				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037B382F294B49C400FC8617 /* Build configuration list for PBXNativeTarget "LiveActivityCountdownWidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037B382D294B49C400FC8617 /* Debug */,
+				037B382E294B49C400FC8617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

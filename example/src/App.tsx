@@ -1,20 +1,53 @@
-import * as React from 'react';
+import React, {
+  useCallback, useState,
+} from 'react'
+import {
+  StyleSheet, View, Button,
+} from 'react-native'
+import { isNotEmptyString } from '@txo/functional'
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-live-activity-countdown';
+import {
+  createLiveActivity,
+  endLiveActivity,
+  getLiveActivities,
+} from '../../lib'
 
-export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
+export default function App (): JSX.Element {
+  const [activityId, setActivityId] = useState<string | null>(null)
 
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
+  const onStartLiveActivityPress = useCallback(() => {
+    if (isNotEmptyString(activityId)) return
+    void createLiveActivity({
+      title: 'test title',
+      timerTitle: 'Time to unlock',
+      endDateTime: new Date(Date.now() + 90 * 60 * 1000),
+      timerColor: '#61dafb',
+    }).then((id) => {
+      if (isNotEmptyString(id)) {
+        setActivityId(id)
+      }
+    })
+  }, [activityId])
+
+  const onEndLiveActivityPress = useCallback(() => {
+    if (isNotEmptyString(activityId)) {
+      void endLiveActivity(activityId)
+      setActivityId(null)
+    }
+  }, [activityId])
+
+  const onGetLiveActivitiesPress = useCallback(() => {
+    // eslint-disable-next-line no-console
+    void getLiveActivities().then((ids) => { console.log(ids) })
+  }, [])
 
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Button title="start live activity" onPress={onStartLiveActivityPress} />
+      <Button title="stop live activity" onPress={onEndLiveActivityPress} />
+      <Button title="get live activities" onPress={onGetLiveActivitiesPress} />
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -28,4 +61,4 @@ const styles = StyleSheet.create({
     height: 60,
     marginVertical: 20,
   },
-});
+})
