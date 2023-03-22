@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.authors      = package["author"]
 
-  s.platforms    = { :ios => "12.4" } # NOTE: must match version in React-Core podspec
+  s.platforms    = { :ios => "14.0" }
   s.source       = { :git => "https://github.com/technology-studio/live-activity-countdown-react-native.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
