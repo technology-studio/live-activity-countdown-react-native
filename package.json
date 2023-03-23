@@ -69,6 +69,7 @@
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1",
     "@txo-peer-dep/log": "^4.0.0",
+    "@txo/functional": "^4.6.0",
     "@txo/log-console": "^3.0.0",
     "@types/jest": "^29.4.0",
     "@types/react": "~17.0.21",
