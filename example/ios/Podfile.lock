@@ -75,10 +75,10 @@ PODS:
   - glog (0.3.5)
   - hermes-engine (0.70.6)
   - libevent (2.1.12)
-  - LiveActivityCountdown (0.0.0):
+  - LiveActivityCountdown (1.0.0):
     - LiveActivityCountdownView
     - React-Core
-  - LiveActivityCountdownView (0.0.0)
+  - LiveActivityCountdownView (1.0.1)
   - OpenSSL-Universal (1.1.1100)
   - RCT-Folly (2021.07.22.00):
     - boost
@@ -407,7 +407,7 @@ DEPENDENCIES:
   - hermes-engine (from `../node_modules/react-native/sdks/hermes/hermes-engine.podspec`)
   - libevent (~> 2.1.12)
   - LiveActivityCountdown (from `../..`)
-  - "LiveActivityCountdownView (from `../node_modules/@txo/live-activity-countdown-view-react-native`)"
+  - "LiveActivityCountdownView (from `../../node_modules/@txo/live-activity-countdown-view-react-native`)"
   - OpenSSL-Universal (= 1.1.1100)
   - RCT-Folly (from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`)
   - RCTRequired (from `../node_modules/react-native/Libraries/RCTRequired`)
@@ -474,7 +474,7 @@ EXTERNAL SOURCES:
   LiveActivityCountdown:
     :path: "../.."
   LiveActivityCountdownView:
-    :path: "../node_modules/@txo/live-activity-countdown-view-react-native"
+    :path: "../../node_modules/@txo/live-activity-countdown-view-react-native"
   RCT-Folly:
     :podspec: "../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec"
   RCTRequired:
@@ -551,8 +551,8 @@ SPEC CHECKSUMS:
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: 2af7b7a59128f250adfd86f15aa1d5a2ecd39995
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
-  LiveActivityCountdown: 37c0f931e3a8421d75503eab463784f9442ffe50
-  LiveActivityCountdownView: 41d42b0cf51537fe6436331ed4fde89a98601173
+  LiveActivityCountdown: 9c799582c58670bf384d173f0aec0caf8e8510d0
+  LiveActivityCountdownView: 80119d309ce7a0334c6bcd1e7af3672d48a49abd
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
   RCT-Folly: 0080d0a6ebf2577475bda044aa59e2ca1f909cda
   RCTRequired: e1866f61af7049eb3d8e08e8b133abd38bc1ca7a
@@ -585,6 +585,6 @@ SPEC CHECKSUMS:
   Yoga: 99caf8d5ab45e9d637ee6e0174ec16fbbb01bcfc
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: 1d5c8134c0827170912ec776dbd4a43fa382a066
+PODFILE CHECKSUM: f18662380594627a28d2c9d097eecd0777f59c30
 
 COCOAPODS: 1.11.3

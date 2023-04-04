@@ -50,5 +50,5 @@ target 'LiveActivityCountdownExample' do
 end
 
 target 'LiveActivityCountdownWidgetExtensionExtension' do
-  pod 'LiveActivityCountdownView', :path => '../node_modules/@txo/live-activity-countdown-view-react-native'
+  pod 'LiveActivityCountdownView', :path => '../../node_modules/@txo/live-activity-countdown-view-react-native'
 end
