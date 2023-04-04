@@ -2354,6 +2354,11 @@
     "@txo/log" "^2.0.1"
     utility-types "^3.10.0"
 
+"@txo/live-activity-countdown-view-react-native@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@txo/live-activity-countdown-view-react-native/-/live-activity-countdown-view-react-native-1.0.0.tgz#c1da7ac97ffc5c5386d0f2016247811ea412cbf1"
+  integrity sha512-zq2InYTuhm4aIQDy2u9W0JVVREfXlVphts/vV4PwP5z2XAekJKcWWNI6vYaFvV5QedrnV/ixWmQq/xq5NEypbA==
+
 "@txo/log-console@^3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@txo/log-console/-/log-console-3.0.0.tgz#56506a8c6afea9109301ff96520c43815814022d"
