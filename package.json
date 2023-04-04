@@ -63,7 +63,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@txo/live-activity-countdown-view-react-native": "^1.0.0"
+    "@txo/live-activity-countdown-view-react-native": "^1.0.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.4.4",
