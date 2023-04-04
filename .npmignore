@@ -1,0 +1,10 @@
+**
+!src
+!src/**/*
+!lib
+!lib/**/*
+!*.md
+!package.json
+!*.podspec
+!ios
+!ios/**/*

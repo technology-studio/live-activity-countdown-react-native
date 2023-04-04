@@ -1,0 +1,42 @@
+name: Resolve yarn.lock
+on:
+  issue_comment:
+    types: [created]
+jobs:
+  resolve-yarn-lock:
+    if: contains(github.event.comment.body, '/resolve yarn.lock')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Get PR branch names
+        env:
+          REPO: ${{ github.repository }}
+          PR_NO: ${{ github.event.issue.number }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          echo "HEAD_BRANCH=$(gh pr view $PR_NO --repo $REPO --json headRefName --jq '.headRefName')" >> $GITHUB_ENV
+          echo "BASE_BRANCH=$(gh pr view $PR_NO --repo $REPO --json baseRefName --jq '.baseRefName')" >> $GITHUB_ENV
+
+      - name: Checkout PR branch and merge base branch
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git checkout ${{ env.HEAD_BRANCH }}
+          git merge ${{ env.BASE_BRANCH }} || true
+
+      - name: Check for merge conflict on yarn.lock file
+        run: |
+          YARN_LOCK_HAS_CONFLICTS=$(git ls-files -u | grep yarn.lock | wc -l)
+          echo "YARN_LOCK_HAS_CONFLICTS=$YARN_LOCK_HAS_CONFLICTS" >> $GITHUB_ENV
+
+      - name: Run yarn install to resolve conflicts automatically and commit yarn.lock file into pull request
+        if: env.YARN_LOCK_HAS_CONFLICTS > 0
+        run: |
+          yarn install
+          git add yarn.lock
+          git commit -m "chore: resolve yarn.lock"
+          git push

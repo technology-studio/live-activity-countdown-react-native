@@ -1,7 +1,7 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-platform :ios, '12.4'
+platform :ios, '14.0'
 install! 'cocoapods', :deterministic_uuids => false
 
 target 'LiveActivityCountdownExample' do
@@ -26,6 +26,8 @@ target 'LiveActivityCountdownExample' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
+  pod 'LiveActivityCountdown', :path => '../..'
+
   target 'LiveActivityCountdownExampleTests' do
     inherit! :complete
     # Pods for testing
@@ -38,6 +40,15 @@ target 'LiveActivityCountdownExample' do
       # necessary for Mac Catalyst builds
       :mac_catalyst_enabled => false
     )
+    installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+        config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+      end
+    end
     __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
+end
+
+target 'LiveActivityCountdownWidgetExtensionExtension' do
+  pod 'LiveActivityCountdownView', :path => '../node_modules/@txo/live-activity-countdown-view-react-native'
 end
