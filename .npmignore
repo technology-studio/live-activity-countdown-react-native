@@ -6,3 +6,4 @@
 !*.md
 !package.json
 !*.podspec
+!ios
