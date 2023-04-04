@@ -5,3 +5,4 @@
 !lib/**/*
 !*.md
 !package.json
+!*.podspec
