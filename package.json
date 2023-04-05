@@ -19,19 +19,6 @@
   "homepage": "https://github.com/technology-studio/react-native-live-activity-countdown#readme",
   "license": "MIT",
   "private": false,
-  "files": [
-    "src",
-    "lib",
-    "ios",
-    "cpp",
-    "*.podspec",
-    "!lib/typescript/example",
-    "!ios/build",
-    "!**/__tests__",
-    "!**/__fixtures__",
-    "!**/__mocks__",
-    "!**/.*"
-  ],
   "scripts": {
     "build:clean": "yarn rimraf lib",
     "build:lib": "yarn tsc",
