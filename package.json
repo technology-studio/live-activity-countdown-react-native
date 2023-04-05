@@ -2,9 +2,8 @@
   "name": "@txo/live-activity-countdown-react-native",
   "version": "1.0.0",
   "description": "Technology Studio - Live activity countdown React Native",
-  "main": "lib/commonjs/index",
-  "module": "lib/module/index",
-  "types": "lib/typescript/index.d.ts",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "react-native": "src/index",
   "source": "src/index",
   "repository": {
@@ -31,14 +30,12 @@
     "fixcode": "eslint --format=node_modules/eslint-formatter-pretty --ext .jsx,.js,.ts,.tsx . --fix",
     "git-hook": "yarn -s lint-staged",
     "lint": "eslint --format=node_modules/eslint-formatter-pretty --ext .jsx,.js,.ts,.tsx .",
-    "prepack": "bob build",
     "prepare": "husky install && yarn build",
     "print-txo-packages": "yarn list 2> /dev/null|grep @txo|sed 's/.*\\(@txo[^@]*\\)@^*\\([^ ]*\\).*/\\1@\\2/g'|sort|uniq",
     "sanity": "yarn lint && yarn build && tsc --noEmit && yarn test && yarn compare-boilerplate-version && echo 'success'",
     "semantic-release": "semantic-release",
     "test:watch": "concurrently \"yarn build:watch\" \"jest --watch\"",
     "test": "jest",
-    "typecheck": "tsc --noEmit",
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
   },
   "keywords": [
@@ -83,7 +80,6 @@
     "lint-staged": "^13.2.0",
     "react": "18.1.0",
     "react-native": "0.70.6",
-    "react-native-builder-bob": "^0.20.0",
     "redux-saga": "^1.2.2",
     "rimraf": "^4.4.0",
     "semantic-release": "^20.1.1",
@@ -99,19 +95,5 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  },
-  "react-native-builder-bob": {
-    "source": "src",
-    "output": "lib",
-    "targets": [
-      "commonjs",
-      "module",
-      [
-        "typescript",
-        {
-          "project": "tsconfig.build.json"
-        }
-      ]
-    ]
   }
 }
