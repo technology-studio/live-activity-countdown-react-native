@@ -14,5 +14,3 @@
 !/ios/*.m
 !/ios/*.mm
 !/ios/*.swift
-example/
-example/**/*
