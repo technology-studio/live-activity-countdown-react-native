@@ -73,7 +73,7 @@
     "@txo-peer-dep/log": "^4.0.0",
     "@txo/functional": "^4.6.0",
     "@txo/log-console": "^3.0.0",
-    "@types/jest": "^29.4.0",
+    "@types/jest": "^29.5.0",
     "@types/react": "~17.0.56",
     "@types/react-native": "0.70.0",
     "@typescript-eslint/eslint-plugin": "^5.54.1",
