@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.2...v1.0.3) (2023-04-07)
+
+
+### Bug fixes
+
+* **deps:** update dependency de.undercouch:gradle-download-task to v5.4.0 ([e635949](https://github.com/technology-studio/live-activity-countdown-react-native/commit/e63594999e87bdf053b623233120631c7a0b8935))
+
 ## [1.0.2](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.1...v1.0.2) (2023-04-07)
 
 
