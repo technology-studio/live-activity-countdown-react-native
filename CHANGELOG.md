@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.1...v1.0.2) (2023-04-07)
+
+
+### Bug fixes
+
+* **deps:** update dependency com.android.tools.build:gradle to v7.4.2 ([bd61587](https://github.com/technology-studio/live-activity-countdown-react-native/commit/bd615874751e5e357c614070e17940823f07446f))
+
 ## [1.0.1](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.0...v1.0.1) (2023-04-07)
 
 
