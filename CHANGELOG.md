@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.3...v1.0.4) (2023-04-07)
+
+
+### Bug fixes
+
+* **deps:** update flipper_version ([900fcdb](https://github.com/technology-studio/live-activity-countdown-react-native/commit/900fcdb548f80920a3877155ef4a18759f96d8c4))
+
 ## [1.0.3](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.2...v1.0.3) (2023-04-07)
 
 
