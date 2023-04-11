@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
+    "bootstrap": "yarn install && yarn pods",
     "ios": "react-native run-ios",
     "start": "react-native start",
     "pods": "pod-install --quiet"
@@ -17,6 +18,7 @@
     "@babel/core": "^7.21.4",
     "@babel/runtime": "^7.21.0",
     "babel-plugin-module-resolver": "^4.1.0",
-    "metro-react-native-babel-preset": "0.76.1"
+    "metro-react-native-babel-preset": "0.76.1",
+    "pod-install": "^0.1.38"
   }
 }

@@ -6,7 +6,7 @@ A package for creating iOS Live Activity notification with simple countdown
 
 ### Install the package and pods
 ```sh
-yarn add @txo/live-activity-countdown-react-native
+yarn add @txo/live-activity-countdown-react-native @txo/live-activity-countdown-view-react-native
 npx pod-install
 ```
 

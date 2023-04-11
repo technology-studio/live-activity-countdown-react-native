@@ -1,10 +1,15 @@
 **
-!src
-!src/**/*
-!lib
-!lib/**/*
-!*.md
-!package.json
-!*.podspec
-!ios
-!ios/**/*
+!/src/
+!/src/**/*
+!/lib/
+!/lib/**/*
+!/*.md
+!/package.json
+
+# package specific
+!/*.podspec
+!/ios/
+!/ios/*.h
+!/ios/*.m
+!/ios/*.mm
+!/ios/*.swift
