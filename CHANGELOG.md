@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.4...v1.0.5) (2023-04-11)
+
+
+### Bug fixes
+
+* remove `react-native-builder-bob` package and fix `.npmignore` ([#11](https://github.com/technology-studio/live-activity-countdown-react-native/issues/11)) ([c0819ce](https://github.com/technology-studio/live-activity-countdown-react-native/commit/c0819ce2d94ee2e5adcf6a48325696adde5aed0a))
+
 ## [1.0.4](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.3...v1.0.4) (2023-04-07)
 
 
