@@ -75,10 +75,10 @@ PODS:
   - glog (0.3.5)
   - hermes-engine (0.70.6)
   - libevent (2.1.12)
-  - LiveActivityCountdown (1.0.0):
+  - LiveActivityCountdown (1.0.6):
     - LiveActivityCountdownView
     - React-Core
-  - LiveActivityCountdownView (1.0.1)
+  - LiveActivityCountdownView (1.0.2)
   - OpenSSL-Universal (1.1.1100)
   - RCT-Folly (2021.07.22.00):
     - boost
@@ -551,8 +551,8 @@ SPEC CHECKSUMS:
   glog: 04b94705f318337d7ead9e6d17c019bd9b1f6b1b
   hermes-engine: 2af7b7a59128f250adfd86f15aa1d5a2ecd39995
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
-  LiveActivityCountdown: 9c799582c58670bf384d173f0aec0caf8e8510d0
-  LiveActivityCountdownView: 80119d309ce7a0334c6bcd1e7af3672d48a49abd
+  LiveActivityCountdown: dbb71259763be060cb0def36f1dd6b1443d58650
+  LiveActivityCountdownView: a6a5b7d6172cfcc129a24739f2dfc762ae89caf2
   OpenSSL-Universal: ebc357f1e6bc71fa463ccb2fe676756aff50e88c
   RCT-Folly: 0080d0a6ebf2577475bda044aa59e2ca1f909cda
   RCTRequired: e1866f61af7049eb3d8e08e8b133abd38bc1ca7a
@@ -585,6 +585,6 @@ SPEC CHECKSUMS:
   Yoga: 99caf8d5ab45e9d637ee6e0174ec16fbbb01bcfc
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: f18662380594627a28d2c9d097eecd0777f59c30
+PODFILE CHECKSUM: 46221d50be89e475baac86cad929aceb284a2dd2
 
 COCOAPODS: 1.11.3
