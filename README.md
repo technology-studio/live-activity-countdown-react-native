@@ -41,6 +41,8 @@ import { createLiveActivity } from '@txo/live-activity-countdown-react-native';
 
 createLiveActivity({
   title: 'Test title',
+  timerTitle: 'Remaining time',
+  buttonTitle: 'Open App',
   endDateTime: '2022-12-31T12:00:00.000Z', // Date object can be used too
   timerColor: '#cccccc',
 })
