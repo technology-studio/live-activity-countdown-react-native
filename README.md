@@ -2,6 +2,10 @@
 
 A package for creating iOS Live Activity notification with simple countdown
 
+![Image 1](images/1.png)
+![Image 2](images/2.png)
+![Image 3](images/3.png)
+
 ## Installation
 
 ### Install the package and pods
