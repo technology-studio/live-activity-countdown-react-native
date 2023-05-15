@@ -18,8 +18,9 @@ export default function App (): JSX.Element {
   const onStartLiveActivityPress = useCallback(() => {
     if (isNotEmptyString(activityId)) return
     void createLiveActivity({
-      title: 'test title',
-      timerTitle: 'Time to unlock',
+      title: 'Test title',
+      timerTitle: 'Remaining time',
+      buttonTitle: 'Open App',
       endDateTime: new Date(Date.now() + 90 * 60 * 1000),
       timerColor: '#61dafb',
     }).then((id) => {
