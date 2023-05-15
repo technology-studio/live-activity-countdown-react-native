@@ -1,3 +1,17 @@
+## [1.0.8](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.7...v1.0.8) (2023-05-12)
+
+
+### Documentation
+
+* add missing step in install instructions ([#82](https://github.com/technology-studio/live-activity-countdown-react-native/issues/82)) ([f65152e](https://github.com/technology-studio/live-activity-countdown-react-native/commit/f65152e9f3c4303223abdf33e67a328e9199cbc3))
+
+## [1.0.7](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.6...v1.0.7) (2023-04-19)
+
+
+### Bug fixes
+
+* add `example` folder to renovate `ignorePaths` ([#59](https://github.com/technology-studio/live-activity-countdown-react-native/issues/59)) ([a5063ec](https://github.com/technology-studio/live-activity-countdown-react-native/commit/a5063ececd681b87ce5b4329b59e6e43a3a7017e))
+
 ## [1.0.6](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.5...v1.0.6) (2023-04-11)
 
 
