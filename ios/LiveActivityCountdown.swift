@@ -14,6 +14,7 @@ public class LiveActivityCountdown: NSObject {
                 let liveActivityCountdownWidgetExtensionAttributes = LiveActivityCountdownWidgetExtensionAttributes(
                     title: config["title"] as! String,
                     timerTitle: config["timerTitle"] as! String,
+                    buttonTitle: config["buttonTitle"] as! String,
                     secondsUntilEnd: config["secondsUntilEnd"] as! Double,
                     timerColor: config["timerColor"] as? String,
                     imageName: config["imageName"] as? String

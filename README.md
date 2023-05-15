@@ -2,6 +2,10 @@
 
 A package for creating iOS Live Activity notification with simple countdown
 
+![Image 1](images/1.png)
+![Image 2](images/2.png)
+![Image 3](images/3.png)
+
 ## Installation
 
 ### Install the package and pods
@@ -47,6 +51,8 @@ import { createLiveActivity } from '@txo/live-activity-countdown-react-native';
 
 createLiveActivity({
   title: 'Test title',
+  timerTitle: 'Remaining time',
+  buttonTitle: 'Open App',
   endDateTime: '2022-12-31T12:00:00.000Z', // Date object can be used too
   timerColor: '#cccccc',
 })

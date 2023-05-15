@@ -22,6 +22,7 @@ const LiveActivityCountdown = NativeModules.LiveActivityCountdown != null
 export type LiveActivityConfig = {
   title: string,
   timerTitle: string,
+  buttonTitle: string,
   endDateTime: string | Date,
   timerColor?: string,
   imageName?: string,
@@ -37,7 +38,14 @@ export async function createLiveActivity (
     }
     await Promise.resolve(undefined); return
   }
-  const { title, timerTitle, endDateTime, timerColor, imageName } = config
+  const {
+    title,
+    timerTitle,
+    buttonTitle,
+    endDateTime,
+    timerColor,
+    imageName,
+  } = config
   const secondsUntilEnd = Math.floor(
     (new Date(endDateTime).getTime() - new Date().getTime()) / 1000,
   )
@@ -47,6 +55,7 @@ export async function createLiveActivity (
   return LiveActivityCountdown.createLiveActivity({
     title,
     timerTitle,
+    buttonTitle,
     secondsUntilEnd,
     timerColor,
     imageName: imageName ?? null,
