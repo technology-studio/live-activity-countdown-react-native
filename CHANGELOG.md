@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.7...v1.0.8) (2023-05-12)
+
+
+### Documentation
+
+* add missing step in install instructions ([#82](https://github.com/technology-studio/live-activity-countdown-react-native/issues/82)) ([f65152e](https://github.com/technology-studio/live-activity-countdown-react-native/commit/f65152e9f3c4303223abdf33e67a328e9199cbc3))
+
 ## [1.0.7](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.6...v1.0.7) (2023-04-19)
 
 
