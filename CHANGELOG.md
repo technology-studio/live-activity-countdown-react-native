@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.8...v1.0.9) (2023-05-15)
+
+
+### Bug fixes
+
+* add missing button title ([#83](https://github.com/technology-studio/live-activity-countdown-react-native/issues/83)) ([5ec02bf](https://github.com/technology-studio/live-activity-countdown-react-native/commit/5ec02bf3dab67bff23365ec735f7a51052c67897))
+
 ## [1.0.8](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.7...v1.0.8) (2023-05-12)
 
 
