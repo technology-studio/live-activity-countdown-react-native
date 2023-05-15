@@ -1,6 +1,6 @@
 {
   "name": "@txo/live-activity-countdown-react-native",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Technology Studio - Live activity countdown React Native",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
