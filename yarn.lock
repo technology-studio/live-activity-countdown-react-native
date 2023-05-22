@@ -9860,10 +9860,10 @@ scheduler@^0.23.0:
   dependencies:
     loose-envify "^1.1.0"
 
-semantic-release-slack-bot@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/semantic-release-slack-bot/-/semantic-release-slack-bot-4.0.1.tgz#3ed431364a839baff064e811559b66929f409c64"
-  integrity sha512-kV1xBhVTjIgm3osfeyPw7gF2UknkAZxPbqwd5+3i14l+ljpfQ/0KGNFklYVN8JN7ozVy4DbQnfDn9dB0mZpG1w==
+semantic-release-slack-bot@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/semantic-release-slack-bot/-/semantic-release-slack-bot-4.0.2.tgz#7e4f7e04fbbf355c64fb8791df8870cdcda4dd35"
+  integrity sha512-EgpUGmxDq5l9qSfAJNkGMOjxi6p5a7lAMnV5sNG53QxpIOsgMUF9X3J+NeaFWXsGyRP5CEkVtDdDkfvvNNo2ag==
   dependencies:
     "@semantic-release/error" "^2.2.0"
     micromatch "4.0.2"
