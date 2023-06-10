@@ -82,7 +82,7 @@
     "react-native": "0.71.10",
     "redux-saga": "^1.2.3",
     "rimraf": "^5.0.1",
-    "semantic-release": "^21.0.3",
+    "semantic-release": "^21.0.5",
     "semantic-release-slack-bot": "^4.0.2",
     "ts-jest": "^29.1.0",
     "typescript": "^5.1.3"
