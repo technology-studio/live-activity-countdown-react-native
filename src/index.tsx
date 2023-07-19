@@ -2,22 +2,30 @@ import {
   NativeModules, Platform,
 } from 'react-native'
 
+declare module 'react-native' {
+  interface NativeModulesStatic {
+    LiveActivityCountdown: {
+      createLiveActivity: (config: LiveActivityNativeConfig) => Promise<string | undefined>,
+      endLiveActivity: (id: string) => Promise<void>,
+      getLiveActivities: () => Promise<string[] | undefined>,
+    },
+  }
+}
+
 const LINKING_ERROR =
   `The package '@txo/live-activity-countdown-react-native' doesn't seem to be linked. Make sure: \n\n${
   Platform.select({ ios: "- You have run 'pod install'\n", default: '' })
   }- You rebuilt the app after installing the package\n` +
   '- You are not using Expo Go\n'
 
-const LiveActivityCountdown = NativeModules.LiveActivityCountdown != null
-  ? NativeModules.LiveActivityCountdown
-  : new Proxy(
-    {},
-    {
-      get () {
-        throw new Error(LINKING_ERROR)
-      },
+const LiveActivityCountdown = NativeModules.LiveActivityCountdown ?? new Proxy(
+  {},
+  {
+    get () {
+      throw new Error(LINKING_ERROR)
     },
-  )
+  },
+)
 
 export type LiveActivityConfig = {
   title: string,
@@ -26,6 +34,10 @@ export type LiveActivityConfig = {
   endDateTime: string | Date,
   timerColor?: string,
   imageName?: string,
+}
+
+type LiveActivityNativeConfig = Omit<LiveActivityConfig, 'endDateTime'> & {
+  secondsUntilEnd: number,
 }
 
 export async function createLiveActivity (
@@ -52,13 +64,13 @@ export async function createLiveActivity (
   if (secondsUntilEnd < 0) {
     throw new Error('endDateTime must be in the future')
   }
-  return LiveActivityCountdown.createLiveActivity({
+  return await LiveActivityCountdown.createLiveActivity({
     title,
     timerTitle,
     buttonTitle,
     secondsUntilEnd,
     timerColor,
-    imageName: imageName ?? null,
+    imageName: imageName ?? undefined,
   })
 }
 
@@ -70,7 +82,7 @@ export async function endLiveActivity (id: string): Promise<void> {
     }
     await Promise.resolve(undefined); return
   }
-  return LiveActivityCountdown.endLiveActivity(id)
+  await LiveActivityCountdown.endLiveActivity(id)
 }
 
 export async function getLiveActivities (): Promise<string[] | undefined> {
@@ -81,5 +93,5 @@ export async function getLiveActivities (): Promise<string[] | undefined> {
     }
     await Promise.resolve(undefined); return
   }
-  return LiveActivityCountdown.getLiveActivities()
+  return await LiveActivityCountdown.getLiveActivities()
 }
