@@ -2598,6 +2598,14 @@
     "@txo/log" "^2.0.3"
     utility-types "^3.10.0"
 
+"@txo/functional@^4.6.4":
+  version "4.6.4"
+  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-4.6.4.tgz#1a807d73a7b4b5c7962851201dcea932a9d94e08"
+  integrity sha512-14Zx0l4W2wdj6LHEdRBQBmN8rUHFUcvhWt7HEQC1QiKl+bsTLxarEKs7dtW+hmHzk+iAlubfBIvFUSg3AfVWcw==
+  dependencies:
+    "@txo/log" "^2.0.4"
+    utility-types "^3.10.0"
+
 "@txo/live-activity-countdown-view-react-native@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@txo/live-activity-countdown-view-react-native/-/live-activity-countdown-view-react-native-1.0.3.tgz#aabba895ed2f3dd24d7060a0cf1913e5d8495dd2"
@@ -2614,6 +2622,13 @@
   integrity sha512-J+cVa3CpjVgSOblqP3fAxtdNlFWXJYsw3lL/NdxCOQh6JmW44RsVaEXLNTY1fGLwKJzbYTofnDJPDXnPufgRrg==
   dependencies:
     "@txo/functional" "^4.6.2"
+
+"@txo/log@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@txo/log/-/log-2.0.4.tgz#6a4268d8964840ffebfa1479d059037c3e267360"
+  integrity sha512-IDXO3Vfsu/YHZQyYqr4CEYqt87y8KLB/3W9/Ra9NlOr9OG+OVJ8ZE9wXWWli9YAh1iCuGTM32/zNGndobbP9dA==
+  dependencies:
+    "@txo/functional" "^4.6.3"
 
 "@types/babel__core@^7.1.14":
   version "7.1.20"
