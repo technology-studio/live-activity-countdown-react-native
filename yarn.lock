@@ -2578,10 +2578,10 @@
   resolved "https://registry.yarnpkg.com/@txo/config-manager/-/config-manager-3.1.0.tgz#9a38d0ba2b2355f973775bafe884cdbb7225dc0d"
   integrity sha512-rYSd5Mk4URK3hs7Y5nSXst4KOidmjJPeaNkh+D/L1ndVodvKwXO/rZV00VYXpW71/KSaG1Hj83At3r4WmboKvg==
 
-"@txo/functional@^4.6.11":
-  version "4.6.11"
-  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-4.6.11.tgz#0e29b73c6c5ba501dbe00a7f781b62bf90e07809"
-  integrity sha512-WbQdvBQUbe0ythYQ5/EcvTc2qPTTeLuN0f1T/XrJB5eV4KJN+ZjkSMk3fnQX+aM125NLSvdYLDufKhj7kod9Dw==
+"@txo/functional@^4.6.12":
+  version "4.6.12"
+  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-4.6.12.tgz#0fb64b5840ad8edc8f05f7303f374f963d76ce15"
+  integrity sha512-Z21aUxhmqL9t4M+lH2tT59s+SxhtYi3uSUj4akKQTUFyZ2jcOYil8B6IF5H4g4QM2I4B/Ic9KuRCTYWsYDi4Wg==
   dependencies:
     "@txo/log" "^2.0.12"
     utility-types "^3.10.0"
