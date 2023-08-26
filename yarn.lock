@@ -4763,17 +4763,17 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript-react@^1.2.25:
-  version "1.2.25"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript-react/-/eslint-config-txo-typescript-react-1.2.25.tgz#dd41aa382c8b12bbb4ff6485e155fef75b18529c"
-  integrity sha512-bKRYMmapWItEOzstJfpN9lLRoQ9wp7yk0kzgpgnbmIYjbSXDArjIuQwAQCPzMMpnSbQgZoO4xeGI/rUtRrvDOA==
+eslint-config-txo-typescript-react@^1.2.26:
+  version "1.2.26"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript-react/-/eslint-config-txo-typescript-react-1.2.26.tgz#b195f1d6686c206e29b60a57e36bd006fa518344"
+  integrity sha512-BMHntoDmWGSnz/d87gLhEfDI8Kv6KPRZTzIsP7CvpwbOgvAbwMootI3faD+810Qc3005K29h8ov5bmfOtoFCqQ==
   dependencies:
-    eslint-config-txo-typescript "^3.3.12"
+    eslint-config-txo-typescript "^3.3.13"
 
-eslint-config-txo-typescript@^3.3.12:
-  version "3.3.12"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-3.3.12.tgz#7dab4a932c346864ed313f7b92be316cf682a839"
-  integrity sha512-SoZ4IHlww+KnqlWMhLHsDuSa1Ly5XGJzHP7p6rpn+ylTfNVB5OizBmYB9Sw6Q9sh1qPjB1MjYeXgyMxLu514FQ==
+eslint-config-txo-typescript@^3.3.13:
+  version "3.3.13"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-3.3.13.tgz#12ce6e2edd17a4c0a2a0a51705bbdd7147550867"
+  integrity sha512-hehUXeHYslU5afzEaY9HE4a2AzewWl5mypBIWGsFYOfJTXj7LtPfpJ7TkgMNfrk04vEIcmDRiHF8PFmEtxDkSA==
   dependencies:
     eslint-config-standard-with-typescript "^38.0.0"
     eslint-import-resolver-typescript "^3.6.0"
