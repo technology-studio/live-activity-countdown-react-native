@@ -49,13 +49,11 @@
     "@txo/live-activity-countdown-view-react-native": "^1.0.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.7.2",
-    "@commitlint/config-conventional": "^17.7.0",
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/git": "^10.0.1",
     "@txo-peer-dep/log": "^4.0.2",
+    "@txo/commitlint": "^1.0.0",
     "@txo/functional": "^4.6.15",
     "@txo/log-console": "^3.0.0",
+    "@txo/semantic-release": "^1.0.0",
     "@types/jest": "^29.5.5",
     "@types/react": "~18.2.24",
     "@types/react-native": "0.72.3",
@@ -81,8 +79,6 @@
     "react-native": "0.72.5",
     "redux-saga": "^1.2.3",
     "rimraf": "^5.0.5",
-    "semantic-release": "^22.0.5",
-    "semantic-release-slack-bot": "^4.0.2",
     "ts-jest": "^29.1.1",
     "typescript": "^5.2.2"
   },
