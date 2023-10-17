@@ -1194,10 +1194,30 @@
     "@commitlint/rules" "^17.7.0"
     "@commitlint/types" "^17.4.4"
 
-"@commitlint/load@>6.1.1", "@commitlint/load@^17.7.2":
+"@commitlint/load@>6.1.1":
   version "17.7.2"
   resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-17.7.2.tgz#85730900a501c50f0bc890bb50e4a2167ee3085a"
   integrity sha512-XA7WTnsjHZ4YH6ZYsrnxgLdXzriwMMq+utZUET6spbOEEIPBCDLdOQXS26P+v3TTO4hUHOEhzUquaBv3jbBixw==
+  dependencies:
+    "@commitlint/config-validator" "^17.6.7"
+    "@commitlint/execute-rule" "^17.4.0"
+    "@commitlint/resolve-extends" "^17.6.7"
+    "@commitlint/types" "^17.4.4"
+    "@types/node" "20.5.1"
+    chalk "^4.1.0"
+    cosmiconfig "^8.0.0"
+    cosmiconfig-typescript-loader "^4.0.0"
+    lodash.isplainobject "^4.0.6"
+    lodash.merge "^4.6.2"
+    lodash.uniq "^4.5.0"
+    resolve-from "^5.0.0"
+    ts-node "^10.8.1"
+    typescript "^4.6.4 || ^5.0.0"
+
+"@commitlint/load@^17.8.0":
+  version "17.8.0"
+  resolved "https://registry.yarnpkg.com/@commitlint/load/-/load-17.8.0.tgz#82f6c7555daecb4ce4b8a6282fcecc3665747578"
+  integrity sha512-9VnGXYJCP4tXmR4YrwP8n5oX6T5ZsHfPQq6WuUQOvAI+QsDQMaTGgTRXr7us+xsjz+b+mMBSagogqfUx2aixyw==
   dependencies:
     "@commitlint/config-validator" "^17.6.7"
     "@commitlint/execute-rule" "^17.4.0"
@@ -2538,13 +2558,13 @@
   dependencies:
     "@txo/config-manager" "^3.1.0"
 
-"@txo/commitlint@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@txo/commitlint/-/commitlint-1.0.0.tgz#ebdeae7482fc5278e0dbdec66383022abab67392"
-  integrity sha512-Gf3qE6A+mTnY55u2jtP2ISOF4y4H/tHRMaYEsIy2k3rkI28M87qFLDzwYrYJV1e0FYdT5XzOyHGW098kZky1TA==
+"@txo/commitlint@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@txo/commitlint/-/commitlint-1.0.1.tgz#db8c2cd62183702145c2dc9352f68c9f8d773fee"
+  integrity sha512-oSnXxfntrULQYULYeWY1eM9ZsfiVsAc7YFnzdi2t557NlISGHbhd6n0Bzf1T7Y29PRvpZbYs1mlaOumQGY6O3w==
   dependencies:
-    "@commitlint/cli" "^17.7.2"
-    "@commitlint/config-conventional" "^17.7.0"
+    "@commitlint/cli" "^17.8.0"
+    "@commitlint/config-conventional" "^17.8.0"
     commitizen "^4.3.0"
 
 "@txo/config-manager@^3.1.0":
