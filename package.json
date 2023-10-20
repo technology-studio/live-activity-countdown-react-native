@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@txo-peer-dep/log": "^4.0.2",
-    "@txo/commitlint": "^1.0.1",
+    "@txo/commitlint": "^1.0.2",
     "@txo/functional": "^4.6.15",
     "@txo/log-console": "^3.0.0",
     "@txo/semantic-release": "^1.0.0",
