@@ -3,7 +3,8 @@ const txoConfig = require('eslint-config-txo-typescript')
 /** @type {import('eslint').Linter.FlatConfig[]} */
 const config = [
   ...txoConfig.default,
-  {    ignores: [
+  {
+    ignores: [
       'babel.config.js',
       'example/babel.config.js',
       'example/index.js',
