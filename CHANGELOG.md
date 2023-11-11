@@ -1,3 +1,10 @@
+## [1.0.11](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.10...v1.0.11) (2023-11-11)
+
+
+### Bug fixes
+
+* **deps:** update dependency @txo/live-activity-countdown-view-react-native to ^1.1.0 ([7cd958b](https://github.com/technology-studio/live-activity-countdown-react-native/commit/7cd958b3501b6d3aba69e49bc6a9bc2f8f108260))
+
 ## [1.0.10](https://github.com/technology-studio/live-activity-countdown-react-native/compare/v1.0.9...v1.0.10) (2023-09-20)
 
 
