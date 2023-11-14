@@ -14,6 +14,14 @@ const config = [
       'scripts',
     ],
   },
+  {
+    files: ['example/src/**/*.ts', 'example/src/**/*.tsx'],
+    languageOptions: {
+      parserOptions: {
+        project: './example/tsconfig.json',
+      },
+    },
+  },
 ]
 
 module.exports = config
