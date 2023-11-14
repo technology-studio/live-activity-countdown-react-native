@@ -1,4 +1,4 @@
-const txoConfig = require('eslint-config-txo-typescript')
+const txoConfig = require('eslint-config-txo-typescript-react')
 
 /** @type {import('eslint').Linter.FlatConfig[]} */
 const config = [
