@@ -2645,7 +2645,7 @@
   resolved "https://registry.yarnpkg.com/@txo/log/-/log-2.0.14.tgz#27be76d85d724c2391228658b43018fa7a1b8f78"
   integrity sha512-ptJYpsGPkJFw2FUmpTstU1gaEea1uVXB/0r5jC1AkvoNe/ozeCos91FnIjxp0eFzu7SgV9OnbAH7hCcGxhVcgQ==
 
-"@txo/semantic-release@^1.0.2":
+"@txo/semantic-release@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-1.0.3.tgz#3feaf9f65c25c087fa242e2f9732fa38a179533b"
   integrity sha512-M3D1Q9fnyXGvsqaN/rG0cqyD0b+XevEI6SVgvRqLRZi84gyRVFBfz/7QWWLqmowZxnqA0SslgXFY8Cc6E0LbFw==
