@@ -57,7 +57,7 @@
     "@txo/tsconfig": "^1.1.1",
     "@types/jest": "^29.5.10",
     "@types/react": "~18.2.41",
-    "@types/react-native": "0.72.7",
+    "@types/react-native": "0.72.8",
     "concurrently": "^8.2.2",
     "eslint-config-txo-typescript-react": "^2.0.11",
     "husky": "^8.0.3",
