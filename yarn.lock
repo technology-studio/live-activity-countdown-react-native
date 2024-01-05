@@ -2821,10 +2821,10 @@
   resolved "https://registry.yarnpkg.com/@txo/log/-/log-2.0.14.tgz#27be76d85d724c2391228658b43018fa7a1b8f78"
   integrity sha512-ptJYpsGPkJFw2FUmpTstU1gaEea1uVXB/0r5jC1AkvoNe/ozeCos91FnIjxp0eFzu7SgV9OnbAH7hCcGxhVcgQ==
 
-"@txo/semantic-release@^1.0.7":
-  version "1.0.7"
-  resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-1.0.7.tgz#df51468cc7ecafbec3ae7f7ff8188ed777ca88b5"
-  integrity sha512-1uanshGuFv0Z6ClGbPt7eVMWAIcuQYd7Q8kfqwgxfBqfOgr2ipVDR83S9hGHm8T2krz7R7FMVU5ude+IJdGx9w==
+"@txo/semantic-release@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@txo/semantic-release/-/semantic-release-1.0.8.tgz#7009ff891d2de1638e6b3509956a4dc8ee21f0ee"
+  integrity sha512-rRQVf4UqcjW/Lc29AO+H90ofsB17Wti5hG4/qjfZRMjxNrU1zm88Izek1nGjZerarCVzoRRr5ovXL0GRScmhRQ==
   dependencies:
     "@semantic-release/changelog" "^6.0.3"
     "@semantic-release/git" "^10.0.1"
