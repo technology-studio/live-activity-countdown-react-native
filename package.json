@@ -56,7 +56,7 @@
     "@txo/semantic-release": "^1.0.8",
     "@txo/tsconfig": "^1.1.1",
     "@types/jest": "^29.5.12",
-    "@types/react": "~18.2.63",
+    "@types/react": "~18.2.64",
     "@types/react-native": "0.72.8",
     "concurrently": "^8.2.2",
     "eslint-config-txo-typescript-react": "^2.0.43",
