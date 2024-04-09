@@ -2126,12 +2126,12 @@
   resolved "https://registry.yarnpkg.com/@txo/config-manager/-/config-manager-3.2.0.tgz#d6bf817d0b8fa2eece61f79fc99eedf2516d68b1"
   integrity sha512-P4t09H/Q6AHoyps0jBy5tSp/HruQteyUeoxr758D2entD+rd8f0XXAdcrCCEIBeihlNAkv4MVj/n8bJulw5CLg==
 
-"@txo/functional@^4.6.18":
-  version "4.6.18"
-  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-4.6.18.tgz#9cfd9723d68f68e617988011cfb93b892c3b3e41"
-  integrity sha512-ghL6nvn5Cw5l7YTlFtURtMNyh9w8YnHa3ooVgzPUqgEYVh1Kj/Ivx5D/g1rXAbvYVcD8bBYvuuanSoJMy86fNw==
+"@txo/functional@^4.6.19":
+  version "4.6.19"
+  resolved "https://registry.yarnpkg.com/@txo/functional/-/functional-4.6.19.tgz#b51cb2c71307618e086c512108e60ef2b3cc6591"
+  integrity sha512-SDmY7+VKENWD/E6oHAWMx8eeNZc6GsTg47+sL8cHuB5+eLMzsxPPxatT1+VdEe5mFc3heNaGRBTiZQVPa6FM7w==
   dependencies:
-    "@txo/log" "^2.0.14"
+    "@txo/log" "^2.0.16"
     utility-types "^3.11.0"
 
 "@txo/live-activity-countdown-view-react-native@^1.1.0":
@@ -2144,10 +2144,10 @@
   resolved "https://registry.yarnpkg.com/@txo/log-console/-/log-console-3.0.0.tgz#56506a8c6afea9109301ff96520c43815814022d"
   integrity sha512-Dl7dnPMUXRr1JSBysUmzT9/RjMm9FWJdtZ9CXVnh9K4qwpT4fnjDV+GWiHHWAqob47XcE7N98M8rShGmpsukqg==
 
-"@txo/log@^2.0.14":
-  version "2.0.14"
-  resolved "https://registry.yarnpkg.com/@txo/log/-/log-2.0.14.tgz#27be76d85d724c2391228658b43018fa7a1b8f78"
-  integrity sha512-ptJYpsGPkJFw2FUmpTstU1gaEea1uVXB/0r5jC1AkvoNe/ozeCos91FnIjxp0eFzu7SgV9OnbAH7hCcGxhVcgQ==
+"@txo/log@^2.0.16":
+  version "2.0.16"
+  resolved "https://registry.yarnpkg.com/@txo/log/-/log-2.0.16.tgz#c101052d6e223882e92a1955a9b7a4ab190b154a"
+  integrity sha512-LfxxzYP0LVO4vF/MJiMLEYVzQjrX0Z/+MsFiwB55z66iW9/5V4Uh7V16BLDhH3O/5VYAjh+AqmiPueryFQP8eg==
 
 "@txo/semantic-release@^1.0.8":
   version "1.0.8"
