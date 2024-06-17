@@ -4252,20 +4252,20 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript-react@^2.0.59:
-  version "2.0.59"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript-react/-/eslint-config-txo-typescript-react-2.0.59.tgz#4466a4ad5fb33d632207a58a81ebf0abe54f5e5f"
-  integrity sha512-ADZDpqF5cVT2CkrOE28ek2atYmg+q1ktPeiw3Ct+Qezw9Ai4XmYBFHlgeevDA0g1hMrJirpmP9jsHW8Bcrxigw==
+eslint-config-txo-typescript-react@^2.0.60:
+  version "2.0.60"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript-react/-/eslint-config-txo-typescript-react-2.0.60.tgz#89579bb50e7cfe49aabd1faadab96f74adf661e5"
+  integrity sha512-5h9CLIhnMzvUkVRwrknObkZikmPKBZ5e4PhJietPv+nF0+cMqTWcpJfxM3t7SWtuKU0BF7rnV3q7JIDXQ4eCbg==
   dependencies:
-    eslint-config-txo-typescript "^4.0.61"
+    eslint-config-txo-typescript "^4.0.62"
     eslint-plugin-jsx-a11y "^6.8.0"
     eslint-plugin-react "^7.34.2"
     eslint-plugin-react-hooks "^4.6.2"
 
-eslint-config-txo-typescript@^4.0.61:
-  version "4.0.61"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.61.tgz#a85d0e00f3aab10bd9bc3e2e4d5c05dd37778334"
-  integrity sha512-w3V4Ue9nRaJl3H/ADJjkcR9Cew0BIeCZwHQJi9srXSs+NippSJtMQFe2MuQCptgqcjM50HJ64AvwwapsIJFBoA==
+eslint-config-txo-typescript@^4.0.62:
+  version "4.0.62"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript/-/eslint-config-txo-typescript-4.0.62.tgz#dfa7051d9d8878545aa2d49523d012979d64622d"
+  integrity sha512-xUlMlwd1UZwQvHT15Wr3PVLTTfqdBcqa+cHTeO+BlbOa+WIor9P5Z/O+UVt1DDilR9k4JOzZ65WncS/r1TmXug==
   dependencies:
     "@eslint-community/eslint-plugin-eslint-comments" "^4.3.0"
     "@typescript-eslint/eslint-plugin" "^7.5.0"
@@ -4277,7 +4277,7 @@ eslint-config-txo-typescript@^4.0.61:
     eslint-plugin-jest "^27.9.0"
     eslint-plugin-n "^16.6.2"
     eslint-plugin-promise "^6.1.1"
-    globals "^15.5.0"
+    globals "^15.6.0"
 
 eslint-import-resolver-node@^0.3.9:
   version "0.3.9"
@@ -5106,10 +5106,10 @@ globals@^13.19.0, globals@^13.24.0:
   dependencies:
     type-fest "^0.20.2"
 
-globals@^15.5.0:
-  version "15.5.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-15.5.0.tgz#093c5b7677809f6cc9dd2c01518b1b0962f1f085"
-  integrity sha512-r7/9tQj5RylGxt/BKGv0D2SvehYvRFYg4ukSNk+EuZxvWI7uK/MJFmOCLq8aKvgh3EVBYFbBlOMAtaITXZr80w==
+globals@^15.6.0:
+  version "15.6.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-15.6.0.tgz#3872d3ab4427e1df4718efd3f7d2c721c503f65f"
+  integrity sha512-UzcJi88Hw//CurUIRa9Jxb0vgOCcuD/MNjwmXp633cyaRKkCWACkoqHCtfZv43b1kqXGg/fpOa8bwgacCeXsVg==
 
 globalthis@^1.0.3:
   version "1.0.3"
