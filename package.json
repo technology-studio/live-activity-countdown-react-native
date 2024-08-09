@@ -32,11 +32,12 @@
     "lint": "eslint --max-warnings 0 .",
     "prepare": "husky && yarn build",
     "print-txo-packages": "yarn list 2> /dev/null|grep @txo|sed 's/.*\\(@txo[^@]*\\)@^*\\([^ ]*\\).*/\\1@\\2/g'|sort|uniq",
-    "sanity": "yarn lint && yarn build && tsc --noEmit && yarn test --coverage && yarn compare-boilerplate-version && echo 'success'",
+    "sanity": "yarn lint:ci && yarn build && tsc --noEmit && yarn test --coverage && yarn compare-boilerplate-version && echo 'success'",
     "semantic-release": "semantic-release",
     "test:watch": "concurrently \"yarn build:watch\" \"jest --watch\"",
     "test": "jest",
-    "update-boilerplate-version": "./scripts/update-boilerplate-version.sh"
+    "update-boilerplate-version": "./scripts/update-boilerplate-version.sh",
+    "lint:ci": "yarn lint"
   },
   "keywords": [
     "react-native",
