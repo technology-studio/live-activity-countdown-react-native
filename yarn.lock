@@ -4351,14 +4351,14 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript-react@^2.0.69:
-  version "2.0.69"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript-react/-/eslint-config-txo-typescript-react-2.0.69.tgz#75403c895a5c7d3a6519da3db151a67ff02b4e95"
-  integrity sha512-i00Qsa/r0gBZ2BGn526KhsZsVO8CC/FSdIfwdQXmf4iIeueZ7DZwsUR6besHULMCOctoIlB2Rj9enXC38O/Xrw==
+eslint-config-txo-typescript-react@^2.0.70:
+  version "2.0.70"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript-react/-/eslint-config-txo-typescript-react-2.0.70.tgz#8dfe51c2e11cdc551066358c9bc948e321949c37"
+  integrity sha512-i1jK2s8fiSWxyBHz1ggImASoXMPosWzr/4i8C1v3yz2SESOjvDIHY/1UATJi3HOoXlZNjCZ5Wc8VKQ7fWs6pPA==
   dependencies:
     eslint-config-txo-typescript "^4.0.66"
     eslint-plugin-jsx-a11y "^6.9.0"
-    eslint-plugin-react "^7.35.1"
+    eslint-plugin-react "^7.35.2"
     eslint-plugin-react-hooks "^4.6.2"
 
 eslint-config-txo-typescript@^4.0.66:
@@ -4495,10 +4495,10 @@ eslint-plugin-react-hooks@^4.6.2:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.2.tgz#c829eb06c0e6f484b3fbb85a97e57784f328c596"
   integrity sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==
 
-eslint-plugin-react@^7.35.1:
-  version "7.35.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.35.1.tgz#afc80387031aa99dd6e0a14437c77d02e5700b47"
-  integrity sha512-B5ok2JgbaaWn/zXbKCGgKDNL2tsID3Pd/c/yvjcpsd9HQDwyYc/TQv3AZMmOvrJgCs3AnYNUHRCQEMMQAYJ7Yg==
+eslint-plugin-react@^7.35.2:
+  version "7.35.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.35.2.tgz#d32500d3ec268656d5071918bfec78cfd8b070ed"
+  integrity sha512-Rbj2R9zwP2GYNcIak4xoAMV57hrBh3hTaR0k7hVjwCQgryE/pw5px4b13EYjduOI0hfXyZhwBxaGpOTbWSGzKQ==
   dependencies:
     array-includes "^3.1.8"
     array.prototype.findlast "^1.2.5"
