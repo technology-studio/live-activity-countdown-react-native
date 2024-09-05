@@ -37,7 +37,8 @@
     "test:watch": "concurrently \"yarn build:watch\" \"jest --watch\"",
     "test": "jest",
     "update-boilerplate-version": "./scripts/update-boilerplate-version.sh",
-    "lint:ci": "yarn lint"
+    "lint:ci": "yarn lint",
+    "type-check": "tsc --noEmit"
   },
   "keywords": [
     "react-native",
