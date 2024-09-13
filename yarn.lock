@@ -4300,14 +4300,14 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript-react@^2.0.72:
-  version "2.0.72"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript-react/-/eslint-config-txo-typescript-react-2.0.72.tgz#da5807d330f9b8ad19751c47ed9f0e5b6816220b"
-  integrity sha512-qVW+EN+9z6DBczP/C9C0DaoiyGIIuQ/VCcCYblPx4OrPg43/YZ6E10//CpCtK7Crp0JfvrRkNmmkidIGArOEiw==
+eslint-config-txo-typescript-react@^2.0.73:
+  version "2.0.73"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript-react/-/eslint-config-txo-typescript-react-2.0.73.tgz#896763b70dd29226eaa9a92b5a4150c41215db3d"
+  integrity sha512-ZMUk4wOMX7hZP0p155EZcg9iFGKV5Mj/I1SOqugja/MQdpkOQa18bKwGk1q7OZBEL86xdzD6i30H1NJtxA8yVg==
   dependencies:
     eslint-config-txo-typescript "^4.0.66"
     eslint-plugin-jsx-a11y "^6.10.0"
-    eslint-plugin-react "^7.36.0"
+    eslint-plugin-react "^7.36.1"
     eslint-plugin-react-hooks "^4.6.2"
 
 eslint-config-txo-typescript@^4.0.66:
@@ -4444,10 +4444,10 @@ eslint-plugin-react-hooks@^4.6.2:
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.2.tgz#c829eb06c0e6f484b3fbb85a97e57784f328c596"
   integrity sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==
 
-eslint-plugin-react@^7.36.0:
-  version "7.36.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.36.0.tgz#307fcdc0a10e08f10a77cb1f2ba2b61f5b397987"
-  integrity sha512-c+RvVxBH0JE2kHt/8p043nPPhIohSnyQOZApIzGJqM2tXnjEzcZzyKIAg72gymLtuwuKfgGxW2H2aqTJqRgTfQ==
+eslint-plugin-react@^7.36.1:
+  version "7.36.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.36.1.tgz#f1dabbb11f3d4ebe8b0cf4e54aff4aee81144ee5"
+  integrity sha512-/qwbqNXZoq+VP30s1d4Nc1C5GTxjJQjk4Jzs4Wq2qzxFM7dSmuG2UkIjg2USMLh3A/aVcUNrK7v0J5U1XEGGwA==
   dependencies:
     array-includes "^3.1.8"
     array.prototype.findlast "^1.2.5"
