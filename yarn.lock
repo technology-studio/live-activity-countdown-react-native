@@ -4300,15 +4300,15 @@ eslint-config-standard@17.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-standard/-/eslint-config-standard-17.1.0.tgz#40ffb8595d47a6b242e07cbfd49dc211ed128975"
   integrity sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==
 
-eslint-config-txo-typescript-react@^2.0.77:
-  version "2.0.77"
-  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript-react/-/eslint-config-txo-typescript-react-2.0.77.tgz#ab3421f91392204135715a85e04dcee5f1b2cdb1"
-  integrity sha512-/Ohr6FonSL82HhkJR/JnILz6LM9/IbfHJglhrcCA/v2qf7UOQJZNPVvzBwmiOOzvyRiTV3DQDYXJ7ZRHLwmFXg==
+eslint-config-txo-typescript-react@^2.0.78:
+  version "2.0.78"
+  resolved "https://registry.yarnpkg.com/eslint-config-txo-typescript-react/-/eslint-config-txo-typescript-react-2.0.78.tgz#64c88e22e10a94e13e4810c301da43a585f6ed35"
+  integrity sha512-rJ0IV86x8+sOmgMtr8qak41CDCsSUCf4rty0HTYtMyc1Pp+XLNtbtg3u6PT4WqZQAtIRAN7OsDaH1X7fZfl4fA==
   dependencies:
     eslint-config-txo-typescript "^4.0.68"
     eslint-plugin-jsx-a11y "^6.10.0"
     eslint-plugin-react "^7.37.1"
-    eslint-plugin-react-hooks "^4.6.2"
+    eslint-plugin-react-hooks "^5.0.0"
 
 eslint-config-txo-typescript@^4.0.68:
   version "4.0.68"
@@ -4439,10 +4439,10 @@ eslint-plugin-promise@^6.1.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-6.1.1.tgz#269a3e2772f62875661220631bd4dafcb4083816"
   integrity sha512-tjqWDwVZQo7UIPMeDReOpUgHCmCiH+ePnVT+5zVapL0uuHnegBUs2smM13CzOs2Xb5+MHMRFTs9v24yjba4Oig==
 
-eslint-plugin-react-hooks@^4.6.2:
-  version "4.6.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.6.2.tgz#c829eb06c0e6f484b3fbb85a97e57784f328c596"
-  integrity sha512-QzliNJq4GinDBcD8gPB5v0wh6g8q3SUi6EFF0x8N/BL9PoVs0atuGc47ozMRyOWAKdwaZ5OnbOEa3WR+dSGKuQ==
+eslint-plugin-react-hooks@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-5.0.0.tgz#72e2eefbac4b694f5324154619fee44f5f60f101"
+  integrity sha512-hIOwI+5hYGpJEc4uPRmz2ulCjAGD/N13Lukkh8cLV0i2IRk/bdZDYjgLVHj+U9Z704kLIdIO6iueGvxNur0sgw==
 
 eslint-plugin-react@^7.37.1:
   version "7.37.1"
