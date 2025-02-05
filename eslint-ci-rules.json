@@ -1,0 +1,10 @@
+[
+  "@stylistic/space-before-function-paren",
+  "@typescript-eslint/no-magic-numbers",
+  "eslint-comments/require-description",
+  "@stylistic/max-statements-per-line",
+  "@stylistic/jsx-quotes",
+  "@stylistic/operator-linebreak",
+  "@stylistic/quotes",
+  "@typescript-eslint/no-unnecessary-condition"
+]
