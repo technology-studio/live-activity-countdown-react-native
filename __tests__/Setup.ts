@@ -4,7 +4,7 @@
  * @Copyright: Technology Studio
 **/
 
-import './Config/LogConfig'
+import 'Config/LogConfig'
 
 // Mock your external modules here if needed
 // jest

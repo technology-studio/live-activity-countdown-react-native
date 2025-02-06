@@ -1,2 +1,1 @@
-yarn git-hook
-
+yarn -s lint-staged

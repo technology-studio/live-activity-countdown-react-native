@@ -1,2 +1,1 @@
 yarn commitlint --edit || exec < /dev/tty && yarn txo-cz --hook > /dev/null 2>&1 || true
-
