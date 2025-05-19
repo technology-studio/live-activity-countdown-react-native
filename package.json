@@ -57,7 +57,7 @@
     "@txo/semantic-release": "^2.0.10",
     "@txo/tsconfig-cjs": "^2.0.0",
     "@types/jest": "^29.5.14",
-    "@types/node": "^22.15.18",
+    "@types/node": "^22.15.19",
     "@types/react": "~18.3.21",
     "@types/react-native": "0.73.0",
     "concurrently": "^9.1.2",
